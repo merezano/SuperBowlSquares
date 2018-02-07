@@ -29,6 +29,8 @@ class JoiningAndWinningTest {
 		addMinimumNumberOfPlayers();
 		fillUpTheSquares();
 		application.numberTheGrid();
+		//application.numberTheGrid(new SequentialNumberer());
+		application.printGrid();
 		scorer.setScore(33, 41);
 		assertEquals("player1", application.getWinner());
 	}

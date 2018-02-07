@@ -74,4 +74,18 @@ public class ApplicationRunner {
 		return game.getNumberOfSquares();
 	}
 
+	/**
+	 * @param sequentialNumberer
+	 */
+	public void numberTheGrid(Numberer sequentialNumberer) {
+		game.numberTheGrid(sequentialNumberer);
+	}
+
+	/**
+	 * 
+	 */
+	public void printGrid() {
+		game.printGrid();
+	}
+
 }
